@@ -1,0 +1,49 @@
+post impl
+
+http://localhost:8080/swagger-ui.html#/
+
+UserCart
+"id":"1",
+"username":"Test",
+"pass":"qwerty",
+"cart":[{}]
+
+User
+"userName":"Test",
+"pass":"qwerty"
+
+
+Category
+"name":"Test",
+"description":"qwerty"
+
+items
+{
+	"name":"Test2",
+	"description":"qwerty",
+	"price":22,
+	"categoryEntities":[{
+		"name":"cepita"
+	}]
+}
+
+{
+  "email": "string",
+  "firstName": "string",
+  "id": 0,
+  "lastName": "string",
+  "pass": "string",
+  "phone": "string",
+  "userName": "string"
+}
+
+Users buy item
+{
+"userName":"Test",
+"pass":"qwerty",
+"cart":[{
+	"name":"Test2",
+	"description":"qwerty",
+	"price":22
+}]
+}
